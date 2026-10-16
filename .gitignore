@@ -42,8 +42,16 @@ yarn-error.log*
 __MACOSX/
 *.zip
 
+# Editor
+.vscode/
+.idea/
+
+# Changeset (npm publish tool, not needed)
+.changeset/
+
 # Sensitive
 HANDOVER.md
 apps/example/config.js
+apps/example/package-lock.json
 start.bat
 *.pdf
