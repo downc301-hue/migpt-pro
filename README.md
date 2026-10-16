@@ -22,8 +22,8 @@
 ### 1. 克隆代码
 
 ```shell
-git clone https://github.com/downc301-hue/MI-GPT-PRO.git
-cd MI-GPT-PRO
+git clone https://github.com/downc301-hue/migpt-pro.git
+cd migpt-pro
 pnpm install
 ```
 
