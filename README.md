@@ -1,4 +1,4 @@
-# MI-GPT-PRO
+# migpt-pro
 
 > 让小米小爱音箱拥有 AI 能力，7x24 在线
 
@@ -173,7 +173,7 @@ docker run -d --name migpt -v $(pwd)/apps/example/config.js:/app/config.js mi-mu
 ## 架构
 
 ```
-小爱音箱 ──(语音)──→ 小米云端 MiNA API ──(HTTPS)──→ MI-GPT-PRO
+小爱音箱 ──(语音)──→ 小米云端 MiNA API ──(HTTPS)──→ migpt-pro
                                                           │
                                                 onMessage 钩子分流
                                                 ┌─────────┴──────────┐
@@ -218,7 +218,7 @@ docker run -d --name migpt -v $(pwd)/apps/example/config.js:/app/config.js mi-mu
 ## 目录结构
 
 ```
-MI-GPT-PRO/
+migpt-pro/
 ├── apps/
 │   ├── example/              # 使用示例（你只需要改这里）
 │   │   ├── app.js            # 入口文件
