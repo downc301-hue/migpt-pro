@@ -166,8 +166,8 @@ pm2 stop migpt               # 停止
 ### Docker 部署
 
 ```shell
-docker build -t mi-music-api .
-docker run -d --name migpt -v $(pwd)/apps/example/config.js:/app/config.js mi-music-api
+docker build -t migpt-pro .
+docker run -d --name migpt -v $(pwd)/apps/example/config.js:/app/config.js migpt-pro
 ```
 
 ## 架构
