@@ -1,6 +1,6 @@
-# mi-music-api
+# MI-GPT-PRO
 
-> 让小米小爱音箱拥有豆包 AI 能力，7x24 在线
+> 让小米小爱音箱拥有 AI 能力，7x24 在线
 
 基于 [@mi-gpt/next](https://github.com/idootop/migpt-next) 二次开发，增加了**智能分流**和**原生插话打断**功能。
 
@@ -22,8 +22,8 @@
 ### 1. 克隆代码
 
 ```shell
-git clone https://github.com/downc301-hue/mi-music-api.git
-cd mi-music-api
+git clone https://github.com/downc301-hue/MI-GPT-PRO.git
+cd MI-GPT-PRO
 pnpm install
 ```
 
@@ -173,7 +173,7 @@ docker run -d --name migpt -v $(pwd)/apps/example/config.js:/app/config.js mi-mu
 ## 架构
 
 ```
-小爱音箱 ──(语音)──→ 小米云端 MiNA API ──(HTTPS)──→ mi-music-api
+小爱音箱 ──(语音)──→ 小米云端 MiNA API ──(HTTPS)──→ MI-GPT-PRO
                                                           │
                                                 onMessage 钩子分流
                                                 ┌─────────┴──────────┐
@@ -218,7 +218,7 @@ docker run -d --name migpt -v $(pwd)/apps/example/config.js:/app/config.js mi-mu
 ## 目录结构
 
 ```
-mi-music-api/
+MI-GPT-PRO/
 ├── apps/
 │   ├── example/              # 使用示例（你只需要改这里）
 │   │   ├── app.js            # 入口文件
